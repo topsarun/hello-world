@@ -2,7 +2,7 @@ import os
 from flask import Flask
 
 PORT = 8000
-MESSAGE = "Hello, world! " + str(os.environ["HELLO-NAME"]) + "\n"
+MESSAGE = "Hello, world! " + str(os.environ["HELLO_NAME"]) + "\n"
 
 app = Flask(__name__)
 
